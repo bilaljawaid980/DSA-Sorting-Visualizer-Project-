@@ -66,7 +66,7 @@ function runalgo() {
   disable_buttons(); // Disables button when algorithm is working
 
   this.classList.add("butt_selected");
-  switch (this.innerHTML) {
+  switch (this.innerHTML.trim()) {
     case "Bubble":
       Bubble();
       break;
